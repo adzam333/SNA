@@ -1,0 +1,46 @@
+﻿
+.container {
+    margin: auto;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.datasetItem {
+    width: 500px;
+    margin: 1px;
+    padding: 10px;
+}
+
+#addDatasetBtn {
+    margin: 15px 10px;
+}
+
+.custom-form {
+    max-width: 400px;
+    margin: 10px;
+}
+
+    .custom-form .form-group {
+        margin-bottom: 10px;
+    }
+
+    .custom-form label {
+        display: block;
+        font-weight: bold;
+    }
+
+    .custom-form input[type="text"],
+    .custom-form input[type="file"],
+    .custom-form button {
+        width: 80%;
+        padding: 5px;
+    }
+
+#DatasetList {
+    margin-top: 30px;
+}
+
+.footer {
+    margin-top: 10%;
+}

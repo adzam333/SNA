@@ -1,0 +1,58 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using SNA.Localization
+@using Volo.Abp.AspNetCore.Mvc.UI.Bootstrap.TagHelpers.Modal;
+@inject IHtmlLocalizer<SNAResource> L
+@model SNA.Pages.IndexModel
+
+@section styles {
+    <abp-style src="/Pages/Index.cshtml.css" />
+}
+@section scripts {
+    <abp-script src="/Pages/Index.cshtml.js" />
+}
+<abp-card class="container">
+    <abp-card-title>Social Network Analyser</abp-card-title>
+    <abp-card-body>
+
+        <abp-button button-type="Primary" id="addDatasetBtn" abp-collapse-id="UploadForm">Add new dataset</abp-button>
+        <abp-collapse-body id="UploadForm">
+            <form id="newDatasetForm" class="custom-form">
+                <div class="form-group">
+                    <label for="datasetName">Dataset name:</label>
+                    <input id="datasetName" type="text">
+                </div>
+                <div class="form-group">
+                    <label for="datasetInputName">File name:</label>
+                    <input id="datasetInputName" type="text" readonly>
+                </div>
+                <div class="form-group">
+                    <input id="datasetInputPath" type="file" style="display: none;">
+                    <button id="browseButton" class="btn btn-primary">Browse</button>
+                </div>
+                <button id="datasetUploadBtn" class="btn btn-primary">Upload Dataset</button>
+            </form>
+        </abp-collapse-body>
+
+
+        <abp-list-group id="DatasetList">
+            <h4>Dataset List:</h4>
+            @foreach (var dataset in Model.Datasets)
+            {
+                <abp-list-group-item tag-type="Button" class="datasetItem" onclick="openModal('@dataset.Name')">@dataset.Name</abp-list-group-item>
+            }
+        </abp-list-group>
+    </abp-card-body>
+    <abp-card-footer class="footer">
+        <abp-alert alert-type="Primary" id="uploadAlert" style="display:none">
+            Placeholder
+        </abp-alert>
+    </abp-card-footer>
+</abp-card>
+
+<abp-modal centered="true" scrollable="true" size="Large" id="myModal">
+    <abp-modal-header title="Dataset statistics"></abp-modal-header>
+    <abp-modal-body id="modalBody">
+    </abp-modal-body>
+    <abp-modal-footer buttons="@(AbpModalButtons.Close)"></abp-modal-footer>
+</abp-modal>

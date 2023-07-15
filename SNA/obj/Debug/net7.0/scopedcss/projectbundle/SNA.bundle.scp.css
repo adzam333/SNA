@@ -1,0 +1,47 @@
+/* _content/SNA/Pages/Index.cshtml.rz.scp.css */
+
+.container[b-vdmzp7ydue] {
+    margin: auto;
+    width: 40%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.datasetItem[b-vdmzp7ydue] {
+    width: 500px;
+    margin: 1px;
+    padding: 10px;
+}
+
+#addDatasetBtn[b-vdmzp7ydue] {
+    margin: 15px 10px;
+}
+
+.custom-form[b-vdmzp7ydue] {
+    max-width: 400px;
+    margin: 10px;
+}
+
+    .custom-form .form-group[b-vdmzp7ydue] {
+        margin-bottom: 10px;
+    }
+
+    .custom-form label[b-vdmzp7ydue] {
+        display: block;
+        font-weight: bold;
+    }
+
+    .custom-form input[type="text"][b-vdmzp7ydue],
+    .custom-form input[type="file"][b-vdmzp7ydue],
+    .custom-form button[b-vdmzp7ydue] {
+        width: 80%;
+        padding: 5px;
+    }
+
+#DatasetList[b-vdmzp7ydue] {
+    margin-top: 30px;
+}
+
+.footer[b-vdmzp7ydue] {
+    margin-top: 10%;
+}

@@ -1,0 +1,243 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\SNA\\SNA.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\SNA\\SNA.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\SNA\\SNA.csproj",
+        "projectName": "SNA",
+        "projectPath": "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\SNA\\SNA.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\SNA\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\admin\\Desktop\\SocialNetworkAnalyzer\\NuGet.Config",
+          "C:\\Users\\admin\\NuGet.Config",
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers",
+              "suppressParent": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.FileProviders.Embedded": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Serilog.Sinks.Async": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            },
+            "Shouldly": {
+              "target": "Package",
+              "version": "[4.2.1, )"
+            },
+            "Volo.Abp.Account.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Account.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Account.Web.OpenIddict": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.AspNetCore.Mvc.UI.Theme.LeptonXLite": {
+              "target": "Package",
+              "version": "[2.3.*-*, )"
+            },
+            "Volo.Abp.AspNetCore.Serilog": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.AuditLogging.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.AutoMapper": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Autofac": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.FeatureManagement.Web": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Identity.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Identity.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Identity.Web": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.Identity": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.Domain.OpenIddict": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.PermissionManagement.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.SettingManagement.Web": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.Swashbuckle": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Application": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.HttpApi": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "Volo.Abp.TenantManagement.Web": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.core": {
+              "target": "Package",
+              "version": "[2.5.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
